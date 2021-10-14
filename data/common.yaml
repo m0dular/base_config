@@ -1,0 +1,11 @@
+---
+base_config::base_packages::packages:
+  - git
+  - vim
+  - htop
+  - jq
+base_config::vim_config::prefer_nvim: true
+base_config::dotfiles::files:
+  - .bashrc
+  - .bash_functions
+  - .bash_aliases
